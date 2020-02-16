@@ -1,4 +1,5 @@
 const Contract = artifacts.require("./contracts/Randomizer.sol");
+// We use String formats for observe the numbers on human readable format.
 Contract.numberFormat = 'String';
 
 contract("Randomizer", async () => {
@@ -156,7 +157,6 @@ contract("Randomizer", async () => {
     it("Return a uint208 pseudorandom number", async () => {
         let c = await Contract.deployed();
         let n = await c.randomUint208.call();
-        console.log(n);
         assert.isNotNull(n);
     });
 
