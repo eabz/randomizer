@@ -20,5 +20,6 @@ import "./RandomInt.sol";
 */
 
 contract Randomizer is RandomInt  {
-
+    string public constant name = "Randomizer";
+    string public constant symbol = "RM";
 }

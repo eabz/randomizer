@@ -18,7 +18,7 @@ module.exports = {
         },
         ropsten: {
             provider: function() {
-                return new HDWalletProvider(process.env.KEY_MAIN, "https://ropsten.infura.io/v3/" + process.env.INFURA_TOKEN)
+                return new HDWalletProvider(process.env.KEY_TEST, "https://ropsten.infura.io/v3/" + process.env.INFURA_TOKEN)
             },
             network_id: 3
         },
