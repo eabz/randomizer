@@ -14,13 +14,15 @@ module.exports = {
             provider: function() {
                 return new HDWalletProvider(process.env.KEY_MAIN, "https://mainnet.infura.io/v3/" + process.env.INFURA_TOKEN)
             },
-            network_id: 1
+            network_id: 1,
+            skipDryRun: true,
         },
         ropsten: {
             provider: function() {
                 return new HDWalletProvider(process.env.KEY_TEST, "https://ropsten.infura.io/v3/" + process.env.INFURA_TOKEN)
             },
-            network_id: 3
+            network_id: 3,
+            skipDryRun: true,
         },
         ganache: {
             provider: function() {
