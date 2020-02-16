@@ -20,6 +20,6 @@ RandomInt(Size) for int. Ex. randomInt8().
 > Contract is under continuos development, if you are using this for your solidity project, make sure the contract address can be changed dinamically.
 > Make sure you are always using current address.
 
-* Mainnet contract:
-* Ropsten contract:
+* Mainnet contract: [0xEa3b0DFF078CA660dCB72F78E7Ea1C39a30F4186](https://etherscan.io/address/0xea3b0dff078ca660dcb72f78e7ea1c39a30f4186)
+* Ropsten contract: [0x6E57869E9cD5c4dB8f47534a961bbb7c1e23d3FC](https://ropsten.etherscan.io/address/0x6e57869e9cd5c4db8f47534a961bbb7c1e23d3fc)
  
